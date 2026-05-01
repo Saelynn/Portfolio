@@ -484,22 +484,34 @@
   }
 
   /* SKILLS */
-  #skills { background: var(--chalk); padding: 100px 56px; }
-  .skills-body { margin-top: 56px; }
-  .skill-group { margin-bottom: 40px; }
+  #skills {
+    background: var(--chalk);
+    height: calc(100vh - var(--nav-h));
+    min-height: 560px;
+    padding: 56px 56px 48px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-margin-top: var(--nav-h);
+  }
+  #skills .section-label { flex-shrink: 0; margin-bottom: 6px; }
+  #skills .section-title { flex-shrink: 0; font-size: clamp(2.4rem, 4.5vw, 4rem); margin-bottom: 0; }
+  .skills-body { margin-top: 0; flex: 1; display: flex; flex-direction: column; justify-content: space-evenly; }
+  .skill-group { margin-bottom: 0; }
   .skill-group-label {
-    font-size: 0.76rem; letter-spacing: 0.2em; text-transform: uppercase;
-    color: var(--ink-mid); margin-bottom: 16px;
+    font-size: 0.9rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--ink-mid); margin-bottom: 14px;
     padding-bottom: 10px; border-bottom: 1px solid var(--border);
   }
   .skill-pills {
-    display: flex; flex-wrap: wrap; gap: 8px;
+    display: flex; flex-wrap: wrap; gap: 10px;
   }
   .pill {
-    font-size: 0.78rem; font-weight: 400;
+    font-size: 0.9rem; font-weight: 400;
     color: var(--ink-mid);
     border: 1px solid var(--border);
-    padding: 8px 18px;
+    padding: 10px 22px;
     background: var(--white);
     letter-spacing: 0.04em;
     transition: background 0.2s, border-color 0.2s, color 0.2s;
@@ -718,6 +730,7 @@
         </div>
       </li>
     <li><a href="#youtube">YouTube</a></li>
+    <li><a href="#toolkit">Toolkit</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="nav-social">
@@ -1005,7 +1018,7 @@
 </section>
 
 <!-- SKILLS -->
-<section id="skills">
+<section id="toolkit">
   <div class="section-label reveal">Toolkit</div>
   <h2 class="section-title reveal d1"><strong>Skills</strong> & <strong>Software</strong></h2>
   <div class="skills-body">
