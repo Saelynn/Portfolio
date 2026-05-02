@@ -101,3 +101,4 @@ Project rows alternate layout (`.flip` class swaps gallery/info order). The dist
 |---|---|
 | 2026-05-01 | Initial project context document created |
 | 2026-05-01 | Added "Sunset Distro" as project #07 — 5 photos embedded as base64, uses `.distro-row` layout with its own lightbox (`#sunset-distro-lightbox`) and JS functions (`openSunsetLightbox`, `sunsetLbNav`, `closeSunsetLightbox`) |
+| 2026-05-01 | Added full responsive layout — fluid spacing via CSS custom properties (`--pad-x`, `--pad-y`, `--gap-lg`) using `clamp()`, tablet breakpoint (≤1024px) stacks hero/about/projects/YouTube/distro to single column, mobile breakpoint (≤600px) collapses nav links, hides thumbstrip, adjusts grids and contact layout |
