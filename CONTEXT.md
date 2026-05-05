@@ -102,4 +102,3 @@ Project rows alternate layout (`.flip` class swaps gallery/info order). The dist
 | 2026-05-01 | Initial project context document created |
 | 2026-05-01 | Added "Sunset Distro" as project #07 — 5 photos embedded as base64, uses `.distro-row` layout with its own lightbox (`#sunset-distro-lightbox`) and JS functions (`openSunsetLightbox`, `sunsetLbNav`, `closeSunsetLightbox`) |
 | 2026-05-01 | Added Sae Combs 7, 8, 9 to the Cable Combs project gallery — 3 new thumbnails added to the thumbstrip (indices 2, 3, 4), 5 navigation dots total |
-| 2026-05-01 | Added 7 more images to Cable Combs gallery — Fixture Plate + Comb 1 & 2, Comb Fixture 1 & 2, Comb Pre Blast, Comb Bead Blast, Milling Comb (indices 5–11), 12 total images, 12 dots. Thumbstrip now scrolls horizontally with fixed 96px thumb width, active thumb auto-centers on click. Raised tablet breakpoint from 1024px to 900px to preserve side-by-side layout on wider screens. |
