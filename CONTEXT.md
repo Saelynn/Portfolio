@@ -57,10 +57,11 @@ A single-page portfolio website for **Dustin N.**, a senior Mechanical Engineeri
 1. **Silvern** — `#silvern-row`
 2. **Cable Combs** — `#combs-row`
 3. **D5 Pump Bracket** — `#d5-row`
-4. **5090 Terminal** — `#gpu-row`
-5. **3D Printed Case** — `#printed-row`
-6. **Distribution Plates** — `#distro-row`
-7. **Sunset Distro** — `#sunset-distro-row`
+4. **GPU Support** — `#gpu-support-row`
+5. **RTX 5090 Waterblock** — `#gpu-row`
+6. **3D Printed Case** — `#printed-row`
+7. **Distribution Plates** — `#distro-row`
+8. **Sunset Distro** — `#sunset-distro-row` (no number — sub-project)
 
 Project rows alternate layout (`.flip` class swaps gallery/info order). The distro plates project uses a special grid layout (`.distro-row`) with a 4-column photo grid and lightbox.
 
@@ -102,3 +103,6 @@ Project rows alternate layout (`.flip` class swaps gallery/info order). The dist
 | 2026-05-01 | Initial project context document created |
 | 2026-05-01 | Added "Sunset Distro" as project #07 — 5 photos embedded as base64, uses `.distro-row` layout with its own lightbox (`#sunset-distro-lightbox`) and JS functions (`openSunsetLightbox`, `sunsetLbNav`, `closeSunsetLightbox`) |
 | 2026-05-01 | Added Sae Combs 7, 8, 9 to the Cable Combs project gallery — 3 new thumbnails added to the thumbstrip (indices 2, 3, 4), 5 navigation dots total |
+| 2026-05-01 | Added 7 more images to Cable Combs gallery (Fixture Plate + Comb 1&2, Comb Fixture 1&2, Comb Pre Blast, Comb Bead Blast, Milling Comb). Thumbstrip scrolls horizontally, fixed 96px thumb width, active thumb auto-centers. Tablet breakpoint raised to 900px. |
+| 2026-05-01 | Added GPU Support as project 04. RTX 5090→05, 3D Printed Case→06, Distribution Plates→07. Sunset Distro has no number (sub-project rule). Fixed duplicate data-gallery="g" by renaming 5090 gallery to "w". Added touch swipe for all galleries. Fixed thumbstrip scroll. |
+| 2026-05-01 | Added D5 Bracket 1-5 to D5 Pump Bracket gallery (indices 3-7), 8 total thumbs and dots |
